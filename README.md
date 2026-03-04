@@ -1,4 +1,4 @@
-#  Repository that hosts the discussions (Public)
+# Repository that hosts the discussions (Public)
 
 Costa Rica
 
