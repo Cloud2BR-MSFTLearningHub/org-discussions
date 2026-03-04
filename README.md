@@ -9,7 +9,7 @@ Last updated: 2026-03-04
 
 ----------
 
-This repository is the **home for public GitHub Discussions** for the organization.
+This repository is the **home of GitHub Discussions** for the organization.
 
 Use it to:
 - Share announcements and updates
