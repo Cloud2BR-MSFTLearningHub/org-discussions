@@ -1,6 +1,15 @@
 # Moderation guide
 
-This is a lightweight playbook for keeping Discussions welcoming and high-signal.
+Costa Rica
+
+[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
+[brown9804](https://github.com/brown9804)
+
+Last updated: 2026-03-04
+
+----------
+
+> This is a lightweight playbook for keeping Discussions welcoming and high-signal.
 
 ## When to intervene
 
@@ -27,3 +36,10 @@ This is a lightweight playbook for keeping Discussions welcoming and high-signal
 
 - For security, redirect to [SECURITY.md](../SECURITY.md)
 - For conduct, redirect to [CODE_OF_CONDUCT.md](../CODE_OF_CONDUCT.md)
+
+<!-- START BADGE -->
+<div align="center">
+  <img src="https://img.shields.io/badge/Total%20views-1337-limegreen" alt="Total views">
+  <p>Refresh Date: 2026-03-04</p>
+</div>
+<!-- END BADGE -->

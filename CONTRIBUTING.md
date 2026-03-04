@@ -11,9 +11,15 @@ See [docs/categories.md](docs/categories.md) for the intended use of each catego
 General guidance:
 
 - Use **Q&A** for questions that should end with an accepted answer.
+- Use **Support / Troubleshooting** for multi-step debugging or ongoing issues.
 - Use **Ideas** for product / process improvement suggestions.
-- Use **RFC** for larger proposals that need review.
-- Use **Show and tell** to share something you built or learned.
+- Use **Show and tell** to share something you built using the materials here (or related content).
+- Use **Events** for meetups, livestreams, and community events.
+- Use **Polls** to vote on topics and priorities.
+
+Optional (add later):
+
+- Use **RFC** for larger proposals that need review and a clear decision.
 
 ## How to write a great discussion
 

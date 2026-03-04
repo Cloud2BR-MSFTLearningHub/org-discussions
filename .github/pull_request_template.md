@@ -1,4 +1,4 @@
-## This repository is for GitHub Discussions
+# This repository is for GitHub Discussions
 
 If you intended to start a conversation (question, idea, proposal), please open a Discussion instead:
 
