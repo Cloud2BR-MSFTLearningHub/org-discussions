@@ -1,83 +1,71 @@
 # Code of Conduct
 
-This project uses the **Contributor Covenant Code of Conduct**.
+Costa Rica
 
-## Our pledge
+[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
+[brown9804](https://github.com/brown9804)
 
-We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
+Last updated: 2026-03-04
 
-We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
+----------
 
-## Our standards
+This project is committed to providing a welcoming, inclusive, and harassment-free experience for everyone.
 
-Examples of behavior that contributes to a positive environment for our community include:
+> [!NOTE] 
+> We follow the [Contributor Covenant Code of Conduct (v2.1)](https://www.contributor-covenant.org/version/2/1/code_of_conduct.html). 
 
-- Demonstrating empathy and kindness toward other people
-- Being respectful of differing opinions, viewpoints, and experiences
-- Giving and gracefully accepting constructive feedback
-- Accepting responsibility and apologizing to those affected by our mistakes, and learning from the experience
-- Focusing on what is best not just for us as individuals, but for the overall community
+## GitHub platform policies
 
-Examples of unacceptable behavior include:
+> This community is hosted on GitHub. Participation is also subject to GitHub’s platform policies:
 
-- The use of sexualized language or imagery, and sexual attention or advances of any kind
-- Trolling, insulting or derogatory comments, and personal or political attacks
-- Public or private harassment
-- Publishing others' private information, such as a physical or email address, without their explicit permission
-- Other conduct which could reasonably be considered inappropriate in a professional setting
+- GitHub Community Guidelines: https://docs.github.com/en/site-policy/github-terms/github-community-guidelines
+- GitHub Acceptable Use Policies: https://docs.github.com/en/site-policy/acceptable-use-policies/github-acceptable-use-policies
+- GitHub Terms of Service: https://docs.github.com/en/site-policy/github-terms/github-terms-of-service
 
-## Enforcement responsibilities
+## Recommended behavior (best practices)
 
-Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.
+> These are practical expectations for day-to-day participation in Discussions:
 
-Community leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.
+- **Be kind and specific**: critique ideas, not people.
+- **Assume positive intent**: ask clarifying questions before escalating.
+- **Keep it constructive**: propose alternatives and next steps.
+- **Stay on topic**: split tangents into a new thread when needed.
+- **Help others help you**: include context, expected vs actual behavior, and minimal repro steps.
+- **Protect privacy and security**: don’t post secrets; redact tokens/keys and personal data.
+- **Close the loop**: when solved, summarize what worked (and mark accepted answers in Q&A).
+
+## Reporting
+
+> If you experience or witness unacceptable behavior:
+
+- **Security issues**: do not report publicly. Please follow [SECURITY.md](SECURITY.md). 
+- **Code of Conduct concerns**: contact maintainers privately using the method in [SUPPORT.md](SUPPORT.md).
+
+We will review reports promptly and fairly.
+
 
 ## Scope
 
 This Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces.
 
-Examples of representing our community include using an official email address, posting via an official social media account, or acting as an appointed representative at an online or offline event.
+## Enforcement responsibilities
 
-## Enforcement
-
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement.
-
-- For security-related issues, see [SECURITY.md](SECURITY.md).
-- For other conduct issues, contact the maintainers using the method described in [SUPPORT.md](SUPPORT.md).
-
-All complaints will be reviewed and investigated promptly and fairly.
+Community leaders are responsible for clarifying and enforcing standards of acceptable behavior and will take appropriate and fair corrective action when needed.
 
 ## Enforcement guidelines
 
 Community leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:
 
-### 1. Correction
+| Level | Community impact | Consequence |
+|---|---|---|
+| 1. Correction | - Use of inappropriate language<br/>- Behavior deemed unprofessional or unwelcome | - Private, written warning from community leaders<br/>- Explanation of the violation and why it was inappropriate<br/>- Public apology may be requested |
+| 2. Warning | - A violation through a single incident<br/>- Or a series of actions | - Warning with consequences for continued behavior<br/>- No interaction with the people involved (including unsolicited interaction with those enforcing the Code of Conduct) for a specified period of time<br/>- Avoid interactions in community spaces and external channels (e.g., social media)<br/>- Violating these terms may lead to a temporary or permanent ban |
+| 3. Temporary ban | - A serious violation of community standards<br/>- Including sustained inappropriate behavior | - Temporary ban from any sort of interaction or public communication for a specified period of time<br/>- No public or private interaction with the people involved (including unsolicited interaction with those enforcing the Code of Conduct)<br/>- Violating these terms may lead to a permanent ban |
+| 4. Permanent ban | - Pattern of violating community standards<br/>- Including sustained inappropriate behavior, harassment of an individual, or aggression toward/disparagement of classes of individuals | - Permanent ban from any sort of public interaction within the community |
 
-**Community impact**: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.
-
-**Consequence**: A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.
-
-### 2. Warning
-
-**Community impact**: A violation through a single incident or series of actions.
-
-**Consequence**: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.
-
-### 3. Temporary ban
-
-**Community impact**: A serious violation of community standards, including sustained inappropriate behavior.
-
-**Consequence**: A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, is allowed during this period. Violating these terms may lead to a permanent ban.
-
-### 4. Permanent ban
-
-**Community impact**: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals.
-
-**Consequence**: A permanent ban from any sort of public interaction within the community.
-
-## Attribution
-
-This Code of Conduct is adapted from the **Contributor Covenant**, version 2.1.
-
-- https://www.contributor-covenant.org/version/2/1/code_of_conduct.html
-- https://www.contributor-covenant.org/
+<!-- START BADGE -->
+<div align="center">
+  <img src="https://img.shields.io/badge/Total%20views-1337-limegreen" alt="Total views">
+  <p>Refresh Date: 2026-03-04</p>
+</div>
+<!-- END BADGE -->

@@ -1,8 +1,17 @@
 # Security Policy
 
+Costa Rica
+
+[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
+[brown9804](https://github.com/brown9804)
+
+Last updated: 2026-03-04
+
+----------
+
 ## Reporting a vulnerability
 
-If you believe you’ve found a security vulnerability, **do not** open a public Discussion.
+> If you believe you’ve found a security vulnerability, **do not** open a public Discussion.
 
 Preferred options (in order):
 
@@ -18,6 +27,12 @@ Please include:
 
 ## Security contact
 
-- `UPDATE-ME-security@example.com`
+> [!IMPORTANT]
+> Please reach out to [brown9804@outlook.com](mailto:brown9804@outlook.com)
 
-> Maintainers: replace the placeholder with your real security contact (or enable GitHub private vulnerability reporting and point people to it).
+<!-- START BADGE -->
+<div align="center">
+  <img src="https://img.shields.io/badge/Total%20views-1337-limegreen" alt="Total views">
+  <p>Refresh Date: 2026-03-04</p>
+</div>
+<!-- END BADGE -->

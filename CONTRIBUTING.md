@@ -1,25 +1,30 @@
 # Contributing (Discussions)
 
-This repository is primarily a **GitHub Discussions hub**.
+Costa Rica
+
+[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
+[brown9804](https://github.com/brown9804)
+
+Last updated: 2026-03-04
+
+----------
+
+> This repository is primarily a **GitHub Discussions hub**.
 
 Most “contributions” here are questions, answers, ideas, proposals, and write-ups.
 
 ## Where to post
 
-See [docs/categories.md](docs/categories.md) for the intended use of each category.
+> See [docs/categories.md](docs/categories.md) for the intended use of each category.
 
 General guidance:
 
-- Use **Q&A** for questions that should end with an accepted answer.
-- Use **Support / Troubleshooting** for multi-step debugging or ongoing issues.
-- Use **Ideas** for product / process improvement suggestions.
-- Use **Show and tell** to share something you built using the materials here (or related content).
-- Use **Events** for meetups, livestreams, and community events.
-- Use **Polls** to vote on topics and priorities.
-
-Optional (add later):
-
-- Use **RFC** for larger proposals that need review and a clear decision.
+- Use [Q&A](https://github.com/orgs/MicrosoftCloudEssentials-LearningHub/discussions/categories/q-a) for questions that should end with an accepted answer.
+- Use [Support / Troubleshooting](https://github.com/orgs/MicrosoftCloudEssentials-LearningHub/discussions/categories/support-troubleshooting) for multi-step debugging or ongoing issues.
+- Use [Ideas](https://github.com/orgs/MicrosoftCloudEssentials-LearningHub/discussions/categories/ideas) for product / process improvement suggestions.
+- Use [Show and tell](https://github.com/orgs/MicrosoftCloudEssentials-LearningHub/discussions/categories/show-and-tell) to share something you built using the materials here (or related content).
+- Use [Events](https://github.com/orgs/MicrosoftCloudEssentials-LearningHub/discussions/categories/events) for meetups, livestreams, and community events.
+- Use [Polls](https://github.com/orgs/MicrosoftCloudEssentials-LearningHub/discussions/categories/polls) to vote on topics and priorities.
 
 ## How to write a great discussion
 
@@ -37,10 +42,11 @@ Optional (add later):
 
 ## Moderation
 
-Maintainers may:
+> Maintainers may:
 
 - Ask for clarification or redirect to another category
 - Close discussions that are off-topic, duplicated, or no longer actionable
 - Remove content that violates the Code of Conduct
 
-If you believe a moderation action was incorrect, follow the guidance in [SUPPORT.md](SUPPORT.md).
+> [!IMPORTANT]
+> If you believe a moderation action was incorrect, follow the guidance in [SUPPORT.md](SUPPORT.md).
