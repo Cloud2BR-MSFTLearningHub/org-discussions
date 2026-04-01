@@ -18,16 +18,9 @@ TARGET_YEAR = os.environ.get("TARGET_YEAR")
 
 QUERY_ORG = """
 query($org: String!) {
-  organization(login: $org) {
-    id
-    discussionCategories(first: 100) {
-      nodes {
+    organization(login: $org) {
         id
-        name
-        slug
-      }
     }
-  }
 }
 """
 
@@ -39,6 +32,10 @@ query($org: String!, $after: String) {
         id
         title
         url
+                category {
+                    id
+                    name
+                }
       }
       pageInfo {
         hasNextPage
@@ -138,12 +135,12 @@ def normalize_title(value):
     return (value or "").strip().lower()
 
 
-def fetch_org_info(org, token):
+def fetch_org_id(org, token):
     data = graphql_request(token, QUERY_ORG, {"org": org})
     org_data = data.get("organization")
-    if not org_data:
+    if not org_data or not org_data.get("id"):
         raise RuntimeError(f"Organization not found: {org}")
-    return org_data
+    return org_data.get("id")
 
 
 def fetch_discussions(org, token):
@@ -172,9 +169,10 @@ def fetch_discussions(org, token):
     return discussions
 
 
-def find_category_id(categories, name):
+def find_category_id_from_discussions(discussions, name):
     name_normalized = normalize_title(name)
-    for category in categories:
+    for discussion in discussions:
+        category = discussion.get("category") or {}
         if normalize_title(category.get("name")) == name_normalized:
             return category.get("id")
     return None
@@ -284,14 +282,10 @@ def main():
     prev_title = f"Catalog Index - {prev_month_name} {prev_year}"
     last_updated = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
-    org_info = fetch_org_info(org, TOKEN)
-    category_id = find_category_id(
-        org_info.get("discussionCategories", {}).get("nodes", []), CATEGORY_NAME
-    )
+    discussions = fetch_discussions(org, TOKEN)
+    category_id = find_category_id_from_discussions(discussions, CATEGORY_NAME)
     if not category_id:
         raise RuntimeError(f"Category not found: {CATEGORY_NAME}")
-
-    discussions = fetch_discussions(org, TOKEN)
     if find_discussion_by_title(discussions, title):
         print(f"Discussion already exists: {title}")
         return
@@ -335,7 +329,7 @@ def main():
         TOKEN,
         MUTATION_CREATE,
         {
-            "orgId": org_info.get("id"),
+            "orgId": fetch_org_id(org, TOKEN),
             "categoryId": category_id,
             "title": title,
             "body": body,
