@@ -16,6 +16,7 @@ Last updated: 2026-03-04
 
 - [Start here](#start-here)
 - [Categories](#categories)
+- [Welcome templates](#welcome-templates)
 - [Automation](#automation)
 - [How we keep discussions useful](#how-we-keep-discussions-useful)
 
@@ -54,13 +55,25 @@ Quick pointers:
 - [Show and tell](https://github.com/orgs/MicrosoftCloudEssentials-LearningHub/discussions/categories/show-and-tell): what you built (demos/integrations)
 - [Events](https://github.com/orgs/MicrosoftCloudEssentials-LearningHub/discussions/categories/events): meetups/livestreams/webinars
 
+## Welcome templates
+
+Use these drafts to create and pin a welcome post in each category.
+
+| Category | Template |
+|---|---|
+| Community / General | [docs/welcome/community-general.md](docs/welcome/community-general.md) |
+| Community / Events | [docs/welcome/community-events.md](docs/welcome/community-events.md) |
+| Community / Polls | [docs/welcome/community-polls.md](docs/welcome/community-polls.md) |
+| Community / Show and tell | [docs/welcome/community-show-and-tell.md](docs/welcome/community-show-and-tell.md) |
+| Product / Announcements | [docs/welcome/product-announcements.md](docs/welcome/product-announcements.md) |
+| Product / Ideas | [docs/welcome/product-ideas.md](docs/welcome/product-ideas.md) |
+| Support / Q&A | [docs/welcome/support-qa.md](docs/welcome/support-qa.md) |
+| Support / Support / Troubleshooting | [docs/welcome/support-troubleshooting.md](docs/welcome/support-troubleshooting.md) |
+
 ## Automation
 
 | Workflow | Trigger | Purpose | Secrets |
 |---|---|---|---|
-| [Archive Discussions](.github/workflows/archive-discussions.yml) | Monthly (1st 06:20 UTC), manual | Sync org discussions into docs/discussions | `TRAFFIC_TOKEN` |
-| [Create Monthly Catalog Discussion](.github/workflows/create-monthly-catalog-discussion.yml) | Monthly (1st 06:05 UTC), manual | Create the monthly catalog discussion, then archive it | `TRAFFIC_TOKEN` |
-| [Ensure Welcome Discussion](.github/workflows/ensure-welcome-discussion.yml) | Manual (run once) | Create and pin the welcome discussion | `TRAFFIC_TOKEN` |
 | [Update Last Modified Date](.github/workflows/update-md-date.yml) | Pull request to main | Stamp changed markdown files with Last updated | `GITHUB_TOKEN` |
 | [Use Visitor Counter Logic](.github/workflows/use-visitor-counter.yml) | Pull request to main, manual | Refresh view counter badges and metrics | `TRAFFIC_TOKEN` |
 
