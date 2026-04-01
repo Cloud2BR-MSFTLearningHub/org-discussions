@@ -1,6 +1,6 @@
 # Ideas and Proposals
 
-Use this category for improvement ideas.
+> Use this category for improvement ideas.
 
 ## Suggested structure
 - Problem

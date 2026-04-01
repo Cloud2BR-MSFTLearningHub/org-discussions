@@ -1,6 +1,6 @@
 # Announcements
 
-Official updates from maintainers.
+> Official updates from maintainers.
 
 ## What you will see here
 - Monthly Catalog Index posts

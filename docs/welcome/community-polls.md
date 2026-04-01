@@ -1,6 +1,6 @@
 # Polls
 
-Use polls for quick feedback and prioritization.
+> Use polls for quick feedback and prioritization.
 
 ## Tips for a good poll
 - 3-6 mutually exclusive options

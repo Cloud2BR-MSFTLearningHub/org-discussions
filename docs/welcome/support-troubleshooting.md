@@ -1,6 +1,6 @@
 # Support / Troubleshooting
 
-Use this category for longer debugging threads.
+> Use this category for longer debugging threads.
 
 ## Include
 - Environment details

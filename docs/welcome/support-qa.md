@@ -1,6 +1,6 @@
 # Q&A
 
-Use Q&A for questions that should end with an accepted answer.
+> Use Q&A for questions that should end with an accepted answer.
 
 ## Include
 - Expected vs actual behavior

@@ -1,6 +1,6 @@
 # Show and Tell
 
-Share demos, write-ups, or integrations you built.
+> Share demos, write-ups, or integrations you built.
 
 ## Include
 - What you built and why

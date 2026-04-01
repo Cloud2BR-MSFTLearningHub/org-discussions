@@ -1,6 +1,6 @@
 # Welcome to General
 
-Use this category for community chat, introductions, and broad questions.
+> Use this category for community chat, introductions, and broad questions.
 
 ## Great posts include
 - A short intro or context

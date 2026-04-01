@@ -1,6 +1,6 @@
 # Events
 
-Share meetups, livestreams, and webinars.
+> Share meetups, livestreams, and webinars.
 
 ## Include
 - Date/time and timezone
