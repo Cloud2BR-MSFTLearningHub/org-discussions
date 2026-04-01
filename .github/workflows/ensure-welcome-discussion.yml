@@ -1,8 +1,6 @@
 name: Ensure Welcome Discussion
 
 on:
-  schedule:
-    - cron: '30 6 * * 1'
   workflow_dispatch:
 
 permissions:
@@ -31,5 +29,5 @@ jobs:
           ARCHIVE_CONFIG: docs/discussions/archive.json
           WELCOME_TEMPLATE: docs/welcome-draft.md
           WELCOME_TITLE: Welcome to the organization Discussions
-          WELCOME_CATEGORY: General
+          WELCOME_CATEGORY: Announcements
         run: python .github/workflows/ensure_welcome_discussion.py

@@ -33,6 +33,9 @@ query($org: String!, $after: String) {
         id
         title
         url
+                category {
+                    name
+                }
       }
       pageInfo {
         hasNextPage
@@ -139,10 +142,15 @@ def find_category_id(categories, name):
     return None
 
 
-def find_discussion_by_title(discussions, title):
+def find_discussion_by_title(discussions, title, category_name=None):
     title_normalized = normalize_title(title)
+    category_normalized = normalize_title(category_name) if category_name else None
     for item in discussions:
         if normalize_title(item.get("title")) == title_normalized:
+            if category_normalized:
+                item_category = item.get("category") or {}
+                if normalize_title(item_category.get("name")) != category_normalized:
+                    continue
             return item
     return None
 
@@ -175,7 +183,7 @@ def main():
         raise RuntimeError(f"Category not found: {WELCOME_CATEGORY}")
 
     discussions = fetch_discussions(org, TOKEN)
-    existing = find_discussion_by_title(discussions, WELCOME_TITLE)
+    existing = find_discussion_by_title(discussions, WELCOME_TITLE, WELCOME_CATEGORY)
 
     if existing:
         discussion_id = existing.get("id")

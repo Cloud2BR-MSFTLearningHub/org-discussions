@@ -11,6 +11,16 @@ Last updated: 2026-03-04
 
 > This repository is the **home of GitHub Discussions** for the organization.
 
+<details>
+<summary>Table of contents</summary>
+
+- [Start here](#start-here)
+- [Categories](#categories)
+- [Automation](#automation)
+- [How we keep discussions useful](#how-we-keep-discussions-useful)
+
+</details>
+
 > E.g: 
 
 <img width="1896" height="782" alt="image" src="https://github.com/user-attachments/assets/313bb41a-d11f-4f19-b5a4-7255a67e40c8" />
@@ -20,6 +30,7 @@ Use it to:
 - Ask questions and get help (Q&A)
 - Propose ideas and gather feedback
 - Host lightweight RFCs / design discussions
+
 
 ## Start here
 
@@ -42,6 +53,16 @@ Quick pointers:
 - [Ideas](https://github.com/orgs/MicrosoftCloudEssentials-LearningHub/discussions/categories/ideas): proposals and improvements
 - [Show and tell](https://github.com/orgs/MicrosoftCloudEssentials-LearningHub/discussions/categories/show-and-tell): what you built (demos/integrations)
 - [Events](https://github.com/orgs/MicrosoftCloudEssentials-LearningHub/discussions/categories/events): meetups/livestreams/webinars
+
+## Automation
+
+| Workflow | Trigger | Purpose | Secrets |
+|---|---|---|---|
+| [Archive Discussions](.github/workflows/archive-discussions.yml) | Monthly (1st 06:20 UTC), manual | Sync org discussions into docs/discussions | `TRAFFIC_TOKEN` |
+| [Create Monthly Catalog Discussion](.github/workflows/create-monthly-catalog-discussion.yml) | Monthly (1st 06:05 UTC), manual | Create the monthly catalog discussion, then archive it | `TRAFFIC_TOKEN` |
+| [Ensure Welcome Discussion](.github/workflows/ensure-welcome-discussion.yml) | Manual (run once) | Create and pin the welcome discussion | `TRAFFIC_TOKEN` |
+| [Update Last Modified Date](.github/workflows/update-md-date.yml) | Pull request to main | Stamp changed markdown files with Last updated | `GITHUB_TOKEN` |
+| [Use Visitor Counter Logic](.github/workflows/use-visitor-counter.yml) | Pull request to main, manual | Refresh view counter badges and metrics | `TRAFFIC_TOKEN` |
 
 ## How we keep discussions useful
 
