@@ -1,0 +1,35 @@
+name: Ensure Welcome Discussion
+
+on:
+  schedule:
+    - cron: '30 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  discussions: write
+
+jobs:
+  ensure:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Ensure welcome discussion
+        env:
+          DISCUSSIONS_TOKEN: ${{ secrets.TRAFFIC_TOKEN }}
+          ARCHIVE_CONFIG: docs/discussions/archive.json
+          WELCOME_TEMPLATE: docs/welcome-draft.md
+          WELCOME_TITLE: Welcome to the organization Discussions
+          WELCOME_CATEGORY: General
+        run: python .github/workflows/ensure_welcome_discussion.py
