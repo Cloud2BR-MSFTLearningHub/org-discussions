@@ -1,7 +1,5 @@
 # Repository that hosts the discussions (Public)
 
-**Organization:** [Cloud2BR Open Source Microsoft Cloud Sandbox - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
-
 Costa Rica
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
@@ -11,7 +9,7 @@ Last updated: 2026-03-04
 
 ----------
 
-> This repository is the **home of GitHub Discussions** for the organization.
+> This repository is the **home of GitHub Discussions** for the organization ([Cloud2BR Open Source Microsoft Cloud Sandbox - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub))
 
 <details>
 <summary>Table of contents</summary>
