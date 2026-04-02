@@ -1,5 +1,7 @@
 # Repository that hosts the discussions (Public)
 
+**Organization:** [Cloud2BR Open Source Microsoft Cloud Sandbox - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
+
 Costa Rica
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
@@ -35,11 +37,11 @@ Use it to:
 
 ## Start here
 
-- **Want to ask a question?** Create a Discussion in [Q&A](https://github.com/orgs/MicrosoftCloudEssentials-LearningHub/discussions/categories/q-a) and include:
+- **Want to ask a question?** Create a Discussion in [Q&A](https://github.com/orgs/Cloud2BR-MSFTLearningHub/discussions/categories/q-a) and include:
 	- What you expected vs what happened
 	- Repro steps (or a minimal example)
 	- Versions / environment details
-- **Have an idea?** Post in [Ideas](https://github.com/orgs/MicrosoftCloudEssentials-LearningHub/discussions/categories/ideas) with the problem, proposed solution, and trade-offs.
+- **Have an idea?** Post in [Ideas](https://github.com/orgs/Cloud2BR-MSFTLearningHub/discussions/categories/ideas) with the problem, proposed solution, and trade-offs.
 - **Need to report a security issue?** Do **not** post it publicly. Please see [SECURITY.md](SECURITY.md).
 
 ## Categories
@@ -49,11 +51,11 @@ Use it to:
 The canonical “what goes where” guide lives in [docs/categories.md](docs/categories.md).
 
 Quick pointers:
-- [Q&A](https://github.com/orgs/MicrosoftCloudEssentials-LearningHub/discussions/categories/q-a): clear questions with an accepted answer
-- [Support / Troubleshooting](https://github.com/orgs/MicrosoftCloudEssentials-LearningHub/discussions/categories/support-troubleshooting): longer debugging threads
-- [Ideas](https://github.com/orgs/MicrosoftCloudEssentials-LearningHub/discussions/categories/ideas): proposals and improvements
-- [Show and tell](https://github.com/orgs/MicrosoftCloudEssentials-LearningHub/discussions/categories/show-and-tell): what you built (demos/integrations)
-- [Events](https://github.com/orgs/MicrosoftCloudEssentials-LearningHub/discussions/categories/events): meetups/livestreams/webinars
+- [Q&A](https://github.com/orgs/Cloud2BR-MSFTLearningHub/discussions/categories/q-a): clear questions with an accepted answer
+- [Support / Troubleshooting](https://github.com/orgs/Cloud2BR-MSFTLearningHub/discussions/categories/support-troubleshooting): longer debugging threads
+- [Ideas](https://github.com/orgs/Cloud2BR-MSFTLearningHub/discussions/categories/ideas): proposals and improvements
+- [Show and tell](https://github.com/orgs/Cloud2BR-MSFTLearningHub/discussions/categories/show-and-tell): what you built (demos/integrations)
+- [Events](https://github.com/orgs/Cloud2BR-MSFTLearningHub/discussions/categories/events): meetups/livestreams/webinars
 
 ## Welcome templates
 
