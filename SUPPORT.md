@@ -3,7 +3,7 @@
 Costa Rica
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
-[brown9804](https://github.com/brown9804)
+[Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
 
 Last updated: 2026-03-04
 
@@ -11,7 +11,7 @@ Last updated: 2026-03-04
 
 ## I need help / have a question
 
-> Open a Discussion in the [Q&A](https://github.com/orgs/MicrosoftCloudEssentials-LearningHub/discussions/categories/q-a) category.
+> Open a Discussion in the [Q&A](https://github.com/orgs/Cloud2BR-MSFTLearningHub/discussions/categories/q-a) category.
 
 To help others help you:
 
@@ -21,7 +21,7 @@ To help others help you:
 
 ## I have an idea / feature request
 
-> Open a Discussion in [Ideas](https://github.com/orgs/MicrosoftCloudEssentials-LearningHub/discussions/categories/ideas).
+> Open a Discussion in [Ideas](https://github.com/orgs/Cloud2BR-MSFTLearningHub/discussions/categories/ideas).
 
 ## I want to report a security issue
 

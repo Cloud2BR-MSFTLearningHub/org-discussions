@@ -9,5 +9,5 @@
 - What you used from this org
 
 ## Quick links
-- [Categories guide](https://github.com/MicrosoftCloudEssentials-LearningHub/org-discussions/blob/main/docs/categories.md)
-- [Code of Conduct](https://github.com/MicrosoftCloudEssentials-LearningHub/org-discussions/blob/main/CODE_OF_CONDUCT.md)
+- [Categories guide](https://github.com/Cloud2BR-MSFTLearningHub/org-discussions/blob/main/docs/categories.md)
+- [Code of Conduct](https://github.com/Cloud2BR-MSFTLearningHub/org-discussions/blob/main/CODE_OF_CONDUCT.md)
