@@ -3,9 +3,9 @@
 Costa Rica
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
-[brown9804](https://github.com/brown9804)
+[Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
 
-Last updated: 2026-03-04
+Last updated: 2026-04-08
 
 ----------
 
@@ -19,12 +19,12 @@ Most “contributions” here are questions, answers, ideas, proposals, and writ
 
 General guidance:
 
-- Use [Q&A](https://github.com/orgs/MicrosoftCloudEssentials-LearningHub/discussions/categories/q-a) for questions that should end with an accepted answer.
-- Use [Support / Troubleshooting](https://github.com/orgs/MicrosoftCloudEssentials-LearningHub/discussions/categories/support-troubleshooting) for multi-step debugging or ongoing issues.
-- Use [Ideas](https://github.com/orgs/MicrosoftCloudEssentials-LearningHub/discussions/categories/ideas) for product / process improvement suggestions.
-- Use [Show and tell](https://github.com/orgs/MicrosoftCloudEssentials-LearningHub/discussions/categories/show-and-tell) to share something you built using the materials here (or related content).
-- Use [Events](https://github.com/orgs/MicrosoftCloudEssentials-LearningHub/discussions/categories/events) for meetups, livestreams, and community events.
-- Use [Polls](https://github.com/orgs/MicrosoftCloudEssentials-LearningHub/discussions/categories/polls) to vote on topics and priorities.
+- Use [Q&A](https://github.com/orgs/Cloud2BR-MSFTLearningHub/discussions/categories/q-a) for questions that should end with an accepted answer.
+- Use [Support / Troubleshooting](https://github.com/orgs/Cloud2BR-MSFTLearningHub/discussions/categories/support-troubleshooting) for multi-step debugging or ongoing issues.
+- Use [Ideas](https://github.com/orgs/Cloud2BR-MSFTLearningHub/discussions/categories/ideas) for product / process improvement suggestions.
+- Use [Show and tell](https://github.com/orgs/Cloud2BR-MSFTLearningHub/discussions/categories/show-and-tell) to share something you built using the materials here (or related content).
+- Use [Events](https://github.com/orgs/Cloud2BR-MSFTLearningHub/discussions/categories/events) for meetups, livestreams, and community events.
+- Use [Polls](https://github.com/orgs/Cloud2BR-MSFTLearningHub/discussions/categories/polls) to vote on topics and priorities.
 
 ## How to write a great discussion
 

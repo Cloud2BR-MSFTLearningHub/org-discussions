@@ -13,5 +13,7 @@
 - Fix or workaround
 
 ## Quick links
-- [Support policy](https://github.com/MicrosoftCloudEssentials-LearningHub/org-discussions/blob/main/SUPPORT.md)
-- [Categories guide](https://github.com/MicrosoftCloudEssentials-LearningHub/org-discussions/blob/main/docs/categories.md)
+- [Support policy](https://github.com/Cloud2BR-MSFTLearningHub/org-discussions/blob/main/SUPPORT.md)
+- [Categories guide](https://github.com/Cloud2BR-MSFTLearningHub/org-discussions/blob/main/docs/categories.md)
+
+Last updated: 2026-04-08

@@ -63,9 +63,11 @@ jobs:
         env:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          git stash --include-untracked
           git fetch origin
           git checkout ${{ github.head_ref }}
           git pull origin ${{ github.head_ref }} || echo "No merge needed"
+          git stash pop || echo "Nothing stashed"
           git add -A
           git commit -m "Update visitor count" || echo "No changes to commit"
           git remote set-url origin https://x-access-token:${TOKEN}@github.com/${{ github.repository }}
@@ -77,9 +79,11 @@ jobs:
         env:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          git stash --include-untracked
           git fetch origin
           git checkout ${{ github.ref_name }} || git checkout -b ${{ github.ref_name }} origin/${{ github.ref_name }}
           git pull origin ${{ github.ref_name }} || echo "No merge needed"
+          git stash pop || echo "Nothing stashed"
           git add -A
           git commit -m "Update visitor count" || echo "No changes to commit"
           git remote set-url origin https://x-access-token:${TOKEN}@github.com/${{ github.repository }}
