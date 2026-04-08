@@ -11,3 +11,5 @@
 - [Categories guide](https://github.com/Cloud2BR-MSFTLearningHub/org-discussions/blob/main/docs/categories.md)
 - [Code of Conduct](https://github.com/Cloud2BR-MSFTLearningHub/org-discussions/blob/main/CODE_OF_CONDUCT.md)
 - [Support policy](https://github.com/Cloud2BR-MSFTLearningHub/org-discussions/blob/main/SUPPORT.md)
+
+Last updated: 2026-04-08

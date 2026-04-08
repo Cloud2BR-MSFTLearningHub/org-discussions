@@ -1,7 +1,7 @@
 # Catalog Index - February 2026
 
 Source discussion: https://github.com/orgs/Cloud2BR-MSFTLearningHub/discussions/4
-Last updated: 2026-04-01
+Last updated: 2026-04-08
 
 This is the current, high-level index of what's available in [Cloud2BR-MSFTLearningHub](https://github.com/Cloud2BR-MSFTLearningHub) as of **February 2026**.
 
